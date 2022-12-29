@@ -5,6 +5,7 @@ function burgerMenu() {
   burger.addEventListener("click", () => {
     burger.classList.toggle("active");
     menu.classList.toggle("hidden");
+    menu.classList.toggle("flex");
   });
 }
 
