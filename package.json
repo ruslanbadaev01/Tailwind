@@ -1,0 +1,25 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./input.css -o ./css/main.css --watch",
+    "build": "npx tailwindcss -i ./input.css -o ./css/main.css"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruslanbadaev01/Tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruslanbadaev01/Tailwind/issues"
+  },
+  "homepage": "https://github.com/ruslanbadaev01/Tailwind#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
